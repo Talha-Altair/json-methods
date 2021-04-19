@@ -4,7 +4,7 @@ Source:
     https://reqres.in/api/users?page=2
     https://geeksforgeeks.org
 
-Author: Akshara, Talha, Viruksha
+Author: Talha
 
 Printing the type of Each Element in the JSON file
 
