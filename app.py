@@ -46,7 +46,19 @@ def printer(d):
     n=(getkey(d))
     m=(getvalue(d))
     for i in range(5):
-        print(n[i] +' :: ' + str(type(m[i])))
+        print(n[i] +' :: ' + remover(str(type(m[i]))))
+        
+        
+ def remover(s):
+    if s=="<class 'str'>":
+        s="string"
+    else:
+        if s=="<class 'int'>":
+            s="integer"
+        else:
+            if s=="<class 'list'>":
+                s="list"  
+    return s        
 
 
 if __name__ == "__main__":
